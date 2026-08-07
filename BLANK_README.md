@@ -1,11 +1,7 @@
-<!--
-Dev-Centr blank README (full / user-facing).
-Replace: OWNER, REPO, BRANCH, project_title, project_description, docs URL, contact.
-
-Use HTML <a>+<img> for shields inside the center div so GitHub keeps them linked and centered
-(Markdown reference badges inside HTML blocks are often not processed).
--->
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
+
+<!-- Header badges MUST be HTML <a href><img> inside the center div. Markdown reference badges inside HTML often fail on GitHub (link becomes the image). -->
 <div align="center">
   <a href="https://github.com/OWNER/REPO/graphs/contributors"><img src="https://img.shields.io/github/contributors/OWNER/REPO.svg?style=for-the-badge" alt="Contributors"></a>
   <a href="https://github.com/OWNER/REPO/network/members"><img src="https://img.shields.io/github/forks/OWNER/REPO.svg?style=for-the-badge" alt="Forks"></a>
@@ -13,12 +9,24 @@ Use HTML <a>+<img> for shields inside the center div so GitHub keeps them linked
   <a href="https://github.com/OWNER/REPO/issues"><img src="https://img.shields.io/github/issues/OWNER/REPO.svg?style=for-the-badge" alt="Issues"></a>
   <a href="https://github.com/OWNER/REPO/blob/BRANCH/LICENSE"><img src="https://img.shields.io/github/license/OWNER/REPO.svg?style=for-the-badge" alt="License"></a>
 
-  <h1>project_title</h1>
-  <p>project_description</p>
-  <p>
+  <br />
+
+  <!-- Optional logo:
+  <a href="https://github.com/OWNER/REPO">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  -->
+
+  <h3 align="center">project_title</h3>
+
+  <p align="center">
+    project_description
+    <br />
     <a href="https://github.com/OWNER/REPO"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <a href="https://github.com/OWNER/REPO">View Demo</a>
+    &middot;
     <a href="https://github.com/OWNER/REPO/issues">Report Bug</a>
     &middot;
     <a href="https://github.com/OWNER/REPO/issues">Request Feature</a>
@@ -34,7 +42,13 @@ Use HTML <a>+<img> for shields inside the center div so GitHub keeps them linked
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#getting-started">Getting Started</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -46,18 +60,21 @@ Use HTML <a>+<img> for shields inside the center div so GitHub keeps them linked
 
 ## About The Project
 
-Describe the problem and what this project does.
+Describe the project for a new visitor. Keep Diátaxis depth in `docs/`, not here.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-Group by role. Real stack only. Outside HTML blocks, Markdown reference badges are fine:
+Group by **role** (not a flat sticker row). Example — reference-style badges are OK **outside** the HTML header:
 
-* **App shell** — [![Electron][Electron.com]][Electron-url]
+* **Runtime / language** — [![Rust][Rust]][Rust-url]
+* **UI**
   * [![React][React.js]][React-url]
-  * [![Vite][Vite.dev]][Vite-url]
-* **Data** — [![SQLite][SQLite.org]][SQLite-url]
+  * [![shadcn/ui][shadcn]][shadcn-url]
+* **Docs** — [![Antora][Antora]][Antora-url]
+
+Replace with the real stack only. Each pair: shield URL ≠ homepage URL.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,13 +90,14 @@ Group by role. Real stack only. Outside HTML blocks, Markdown reference badges a
    ```sh
    git clone https://github.com/OWNER/REPO.git
    ```
-2. Install dependencies and run (project-specific).
+2. Install dependencies
+3. Run
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
-Short examples. Link out to full docs when they exist.
+Short examples. Link out to docs for more.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,11 +105,13 @@ Short examples. Link out to full docs when they exist.
 
 - [ ] Item
 
-See the [open issues](https://github.com/OWNER/REPO/issues) for proposed features and known issues.
+See the [open issues](https://github.com/OWNER/REPO/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
+
+Contributions are welcome. Open an issue before large changes.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -102,16 +122,16 @@ See the [open issues](https://github.com/OWNER/REPO/issues) for proposed feature
 ### Top contributors
 
 <a href="https://github.com/OWNER/REPO/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OWNER/REPO" alt="contributors" />
+  <img src="https://contrib.rocks/image?repo=OWNER/REPO" alt="contrib.rocks" />
 </a>
 
-For per-person profile links, prefer [all-contributors](https://allcontributors.org/).
+For per-person profile links, prefer an [all-contributors](https://allcontributors.org/) table instead of (or in addition to) the collage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 
-Distributed under the project license. See `LICENSE` for more information.
+Distributed under LICENSE_NAME. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,12 +150,12 @@ Project Link: [https://github.com/OWNER/REPO](https://github.com/OWNER/REPO)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES (Built With + any body badges) -->
-[Electron.com]: https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white
-[Electron-url]: https://www.electronjs.org/
+<!-- MARKDOWN LINKS & IMAGES (Built With / body only — header shields are HTML above) -->
+[Rust]: https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white
+[Rust-url]: https://www.rust-lang.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://react.dev/
-[Vite.dev]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
-[Vite-url]: https://vitejs.dev/
-[SQLite.org]: https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white
-[SQLite-url]: https://sqlite.org/
+[shadcn]: https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white
+[shadcn-url]: https://ui.shadcn.com/
+[Antora]: https://img.shields.io/badge/Antora-4A4A55?style=for-the-badge&logo=asciidoctor&logoColor=white
+[Antora-url]: https://antora.org/

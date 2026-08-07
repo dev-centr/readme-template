@@ -1,23 +1,20 @@
 <a id="readme-top"></a>
-
 <div align="center">
+  <a href="https://github.com/OWNER/REPO/graphs/contributors"><img src="https://img.shields.io/github/contributors/OWNER/REPO.svg?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/OWNER/REPO/network/members"><img src="https://img.shields.io/github/forks/OWNER/REPO.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/OWNER/REPO/stargazers"><img src="https://img.shields.io/github/stars/OWNER/REPO.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/OWNER/REPO/issues"><img src="https://img.shields.io/github/issues/OWNER/REPO.svg?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/OWNER/REPO/blob/BRANCH/LICENSE"><img src="https://img.shields.io/github/license/OWNER/REPO.svg?style=for-the-badge" alt="License"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-
-<h3 align="center">project_title</h3>
+  <h3 align="center">project_title</h3>
 
   <p align="center">
     project_description
     <br />
     <a href="https://github.com/OWNER/REPO/issues">Report Bug</a>
-    ·
+    &middot;
     <a href="https://github.com/OWNER/REPO/issues">Request Feature</a>
   </p>
-
 </div>
 
 <details>
@@ -62,15 +59,3 @@ Org Or Person Name - email@example.com
 Project Link: [https://github.com/OWNER/REPO](https://github.com/OWNER/REPO)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/OWNER/REPO.svg?style=for-the-badge
-[contributors-url]: https://github.com/OWNER/REPO/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/OWNER/REPO.svg?style=for-the-badge
-[forks-url]: https://github.com/OWNER/REPO/network/members
-[stars-shield]: https://img.shields.io/github/stars/OWNER/REPO.svg?style=for-the-badge
-[stars-url]: https://github.com/OWNER/REPO/stargazers
-[issues-shield]: https://img.shields.io/github/issues/OWNER/REPO.svg?style=for-the-badge
-[issues-url]: https://github.com/OWNER/REPO/issues
-[license-shield]: https://img.shields.io/github/license/OWNER/REPO.svg?style=for-the-badge
-[license-url]: https://github.com/OWNER/REPO/blob/BRANCH/LICENSE
