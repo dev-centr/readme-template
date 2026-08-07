@@ -1,0 +1,90 @@
+ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
+:sectanchors:
+
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/OWNER/REPO/graphs/contributors"><img src="https://img.shields.io/github/contributors/OWNER/REPO.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/OWNER/REPO/network/members"><img src="https://img.shields.io/github/forks/OWNER/REPO.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/OWNER/REPO/stargazers"><img src="https://img.shields.io/github/stars/OWNER/REPO.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/OWNER/REPO/issues"><img src="https://img.shields.io/github/issues/OWNER/REPO.svg?style=for-the-badge" alt="Issues"></a>
+<br />
+<h3 align="center">project_title</h3>
+<p align="center">
+project_description<br />
+<a href="https://github.com/OWNER/REPO/issues">Report Bug</a>
+·
+<a href="https://github.com/OWNER/REPO/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/OWNER/REPO.svg?style=for-the-badge[Contributors,link=https://github.com/OWNER/REPO/graphs/contributors]
+image:https://img.shields.io/github/forks/OWNER/REPO.svg?style=for-the-badge[Forks,link=https://github.com/OWNER/REPO/network/members]
+image:https://img.shields.io/github/stars/OWNER/REPO.svg?style=for-the-badge[Stars,link=https://github.com/OWNER/REPO/stargazers]
+image:https://img.shields.io/github/issues/OWNER/REPO.svg?style=for-the-badge[Issues,link=https://github.com/OWNER/REPO/issues]
+
+= project_title
+
+project_description
+
+link:https://github.com/OWNER/REPO/issues[Report Bug] ·
+link:https://github.com/OWNER/REPO/issues[Request Feature]
+endif::[]
+
+== About The Project
+
+Short description for maintainers and nearby teams. No social flair.
+
+ifdef::env-github[]
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
+endif::[]
+
+== Getting Started
+
+Install / build notes.
+
+ifdef::env-github[]
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
+endif::[]
+
+== Usage
+
+How to run or consume this repo.
+
+ifdef::env-github[]
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
+endif::[]
+
+== License
+
+See `LICENSE` if present.
+
+ifdef::env-github[]
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
+endif::[]
+
+== Contact
+
+Org Or Person Name — email@example.com
+
+* Project: https://github.com/OWNER/REPO
+
+ifdef::env-github[]
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
+endif::[]
