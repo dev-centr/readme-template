@@ -6,3 +6,8 @@
 !BLANK_README.simplified.md
 !BLANK_README.adoc
 !BLANK_README.simplified.adoc
+!/.github/
+!/.github/workflows/
+!/.github/workflows/encoding-guard.yml
+!/.editorconfig
+!/.gitattributes
